@@ -3,6 +3,8 @@ GIFReactor
 
 A GIPHY web client built with React.js
 
+![Logo](https://raw.githubusercontent.com/jeserodz/gif-reactor/master/public/favicon.png)
+
 ## Available Scripts
 
 In the project directory, you can run:
