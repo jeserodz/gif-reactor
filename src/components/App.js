@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import styled from 'styled-components';
-import { Logo, SearchInput, ResultsGrid, Lightbox } from '.';
+import { Logo, SearchInput, ResultsGrid, Lightbox, Footer } from '.';
 import { search } from '../services';
 
 const PAGE_SIZE = 20;
@@ -78,12 +78,7 @@ function App() {
         onPreviousPress={handlePreviousSlide}
         onNextPress={handleNextSlide}
       />
-      <Footer className="animated fadeIn slow delay-2s">
-        Made with ️️
-        <span role="img" aria-label="love">❤️</span>
-        by Jesé Rodríguez
-        <span role="img" aria-label="love">🚀</span>
-      </Footer>
+      <Footer />
     </Container>
   );
 }
@@ -95,13 +90,6 @@ const Container = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-`;
-
-const Footer = styled.div`
-  font-family: 'Pacifico', sans-serif;
-  font-size: 0.9rem;
-  color: white;
-  margin-bottom: 1rem;
 `;
 
 export default App;

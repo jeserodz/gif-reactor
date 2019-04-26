@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import logoImage from '../assets/images/logo.svg';
+import logoImage from '../assets/images/logo.png';
 import breakpoints from '../utils/breakpoints';
 
 const Logo = () => (
@@ -16,6 +16,7 @@ const Image = styled.div`
   background-position: center;
   background-repeat: no-repeat;
   animation-delay: .5s;
+  margin-top: 1rem;
 
   @media (max-width: ${breakpoints.md.max}px) {
     width: 245px;
