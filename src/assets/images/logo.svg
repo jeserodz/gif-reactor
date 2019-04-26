@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="500px" height="148px" viewBox="0 0 500 148" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>Gif Reactor</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <text id="text-1" font-family="Pacifico-Regular, Pacifico" font-size="100" font-weight="normal" fill="#FFFFFF">
+            <tspan x="0" y="130">Gif </tspan>
+            <tspan x="167.2" y="130" font-family="PatuaOne-Regular, Patua One">Reactor</tspan>
+        </text>
+        <filter x="-0.8%" y="-2.3%" width="102.4%" height="109.7%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="4" dy="8" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.25110394 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" fill-opacity="1">
+        <g id="Desktop-HD" transform="translate(-193.000000, -66.000000)" fill="#FFFFFF">
+            <g id="Group" transform="translate(187.000000, 30.000000)">
+                <g id="Gif-Reactor">
+                    <use filter="url(#filter-2)" xlink:href="#text-1"></use>
+                    <use xlink:href="#text-1"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
